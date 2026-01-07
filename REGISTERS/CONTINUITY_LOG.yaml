@@ -1,0 +1,188 @@
+# Continuity Log
+# Track character details, plot points, and foreshadowing for consistency
+
+book:
+  number: "002"
+  slug: "gas-leak-explosion"
+  victim: "Sienna Rose Blackwood"
+
+characters:
+  primary_victim:
+    name: "Sienna Rose Blackwood"
+    introduced_chapter: 1
+    key_traits: ["vanity", "aesthetic-obsessed", "validation-seeking", "risk-blind"]
+    arc_notes: ["prioritizes perfect shots over safety, increasingly normalizes gas smell"]
+
+  secondary_characters:
+    - name: "Jessa"
+      role: "roommate, grounded foil"
+      introduced_chapter: 1
+      fate: "unknown"
+      notes: ["dark humor, asks probing questions about travel and safety"]
+    - name: "Dylan Cooper"
+      role: "Australian surfer, kitchen regular"
+      introduced_chapter: 2
+      fate: "survives"
+      notes: ["opens courtyard door for air, jokes about smell"]
+    - name: "Felix"
+      role: "German photographer, casual ally"
+      introduced_chapter: 1
+      fate: "unknown"
+      notes: ["takes photos of Sienna, provides social validation"]
+    - name: "Yuki Tanaka"
+      role: "Japanese backpacker, kitchen user"
+      introduced_chapter: 10
+      fate: "dies"
+      notes: ["cooking rice in kitchen, sensitive to gas smell"]
+    - name: "Lucas Oliveira"
+      role: "Brazilian student, kitchen user"
+      introduced_chapter: 10
+      fate: "dies"
+      notes: ["fills water bottle, asks if smell is dangerous"]
+
+  staff_integrated:
+    - name: "Joana Ferreira"
+      role: "Receptionist"
+      revealed_chapter: 1
+    - name: "Maria Santos"
+      role: "Cleaner"
+      revealed_chapter: 2
+
+  @hostelreaper:
+    mentions:
+      - chapter: 10
+        context: "Sees @HostelReaper story about lighter and warning text"
+    # - chapter: X
+    #   context: "what was mentioned"
+
+timeline:
+  day_1:
+    - chapter: 1
+      time: "Morning"
+      event: "Sienna arrives, first notices gas smell and kitchen rules"
+    - chapter: 1
+      time: "Evening"
+      event: "Rooftop drinks, first deep talk with Jessa, plans morning shot"
+  day_2:
+    - chapter: 2
+      time: "Early morning"
+      event: "Kitchen shoot attempt, warned by Maria and Joana"
+    - chapter: 2
+      time: "Day"
+      event: "Lisbon exploring, emotional call with mother"
+    - chapter: 2
+      time: "Night"
+      event: "Rooftop sunset, gas smell increases in dorm"
+  day_3:
+    - chapter: 3
+      time: "Early morning"
+      event: "Another kitchen shoot attempt; gas smell stronger"
+    - chapter: 3
+      time: "Evening"
+      event: "Kitchen crowd, minor flare at stove, Joana enforces burner rule"
+    - chapter: 3
+      time: "Pre-dawn"
+      event: "Sienna returns to kitchen, lighter in hand"
+  day_4:
+    - chapter: 10
+      time: "Morning"
+      event: "Agrees to early-morning cigarette shoot with Rafa"
+    - chapter: 10
+      time: "Afternoon"
+      event: "Meets Felix; notices smoke detectors in shop window"
+    - chapter: 10
+      time: "Late afternoon"
+      event: "Communal kitchen dinner with Dylan, Yuki, Lucas; door opened for air"
+    - chapter: 10
+      time: "Evening"
+      event: "Maria warns of explosion; Sienna sets alarms for 6:40/6:43"
+
+foreshadowing:
+  planted:
+    - element: "Pilot light goes out frequently"
+      chapter_planted: 1
+      chapter_payoff: 38
+      status: "planted"
+    - element: "Guest complains of gas smell at reception"
+      chapter_planted: 2
+      chapter_payoff: 38
+      status: "planted"
+    - element: "Dead houseplant in kitchen"
+      chapter_planted: 1
+      chapter_payoff: 38
+      status: "planted"
+    - element: "Morning headaches among guests"
+      chapter_planted: 2
+      chapter_payoff: 38
+      status: "planted"
+    - element: "Back burner warning and window painted shut"
+      chapter_planted: 1
+      chapter_payoff: 38
+      status: "planted"
+    - element: "Maria explicitly says 'Explosion'"
+      chapter_planted: 10
+      chapter_payoff: 38
+      status: "planted"
+
+  red_herrings: []
+    # - element: "Suspicious backpacker"
+    #   chapter: 5
+    #   resolved: 12
+
+death_progression:
+  warning_signs:
+    - chapter: 1
+      type: "subtle"
+      element: "gas smell in kitchen and hallway"
+      victim_rationalization: "old drains, old building"
+    - chapter: 2
+      type: "subtle"
+      element: "headache and lightheadedness after time in kitchen"
+      victim_rationalization: "not eating, caffeine, jet lag"
+    - chapter: 3
+      type: "subtle"
+      element: "brief flare at stove, persistent hiss"
+      victim_rationalization: "old pipes, normal stove behavior"
+    - chapter: 10
+      type: "subtle"
+      element: "guests report dizziness; Maria says 'Explosion'"
+      victim_rationalization: "screen time, not eating, old building"
+
+locations_used:
+  - location: "Reception"
+    chapters: [1, 2, 10]
+  - location: "Victim's Room"
+    chapters: [1, 2, 3, 10]
+  - location: "Kitchen"
+    chapters: [1, 2, 3, 10]
+  - location: "Common Room"
+    chapters: [1, 2, 3, 10]
+  - location: "Courtyard"
+    chapters: [1, 2, 3, 10]
+  - location: "Rooftop"
+    chapters: [1, 2, 3, 10]
+  - location: "Lisbon Streets"
+    chapters: [1, 2, 10]
+  - location: "Public Bathroom"
+    chapters: [2]
+
+objects:
+  significant_items:
+    - item: "BIC lighter"
+      introduced: 1
+      significance: "future ignition trigger"
+      last_mentioned: 10
+    - item: "Ring light"
+      introduced: 1
+      significance: "symbol of content obsession"
+      last_mentioned: 10
+    - item: "Cigarettes (prop pack)"
+      introduced: 1
+      significance: "aesthetic prop that becomes fatal"
+      last_mentioned: 10
+
+notes: []
+  # - chapter: X
+  #   note: "Need to reference this later"
+
+last_updated: "2026-01-06"

@@ -1,0 +1,110 @@
+# Word Count Register
+# Updated automatically by Writer Agent
+
+book:
+  number: "002"
+  slug: "gas-leak-explosion"
+  target: 250000
+
+daily_log: []
+  # - date: "2026-01-06"
+  #   words_written: 5200
+  #   chapter: 1
+  #   cumulative: 5200
+
+weekly_summary: []
+  # - week: 1
+  #   start_date: "2026-01-06"
+  #   words_written: 35000
+  #   chapters_completed: 7
+  #   cumulative: 35000
+
+chapter_breakdown:
+  - chapter: 1
+    word_count: 4162
+    status: "complete"
+  - chapter: 2
+    word_count: 4047
+    status: "complete"
+  - chapter: 3
+    word_count: 4232
+    status: "complete"
+  - chapter: 4
+    word_count: 4184
+    status: "complete"
+  - chapter: 5
+    word_count: 4116
+    status: "complete"
+  - chapter: 6
+    word_count: 4148
+    status: "complete"
+  - chapter: 7
+    word_count: 4224
+    status: "complete"
+  - chapter: 8
+    word_count: 4083
+    status: "complete"
+  - chapter: 9
+    word_count: 4071
+    status: "complete"
+  - chapter: 10
+    word_count: 4269
+    status: "complete"
+  - chapter: 11
+    word_count: 4015
+    status: "complete"
+  - chapter: 12
+    word_count: 4226
+    status: "complete"
+  - chapter: 13
+    word_count: 4034
+    status: "complete"
+  - chapter: 14
+    word_count: 4361
+    status: "complete"
+  - chapter: 15
+    word_count: 4204
+    status: "complete"
+  - chapter: 16
+    word_count: 4015
+    status: "complete"
+  - chapter: 17
+    word_count: 4159
+    status: "complete"
+  - chapter: 18
+    word_count: 5078
+    status: "complete"
+  - chapter: 19
+    word_count: 4590
+    status: "complete"
+  - chapter: 20
+    word_count: 4104
+    status: "complete"
+  - chapter: 21
+    word_count: 4092
+    status: "complete"
+  - chapter: 22
+    word_count: 4179
+    status: "complete"
+  - chapter: 23
+    word_count: 4036
+    status: "complete"
+  - chapter: 24
+    word_count: 4048
+    status: "complete"
+  - chapter: 25
+    word_count: 4130
+    status: "complete"
+  # ... chapters 2-50 follow same pattern
+
+totals:
+  current: 104807
+  target: 250000
+  remaining: 145193
+  percentage: 41.9
+
+pace:
+  average_per_chapter: 4192
+  estimated_completion: "TBD"
+
+last_updated: "2026-01-06"
