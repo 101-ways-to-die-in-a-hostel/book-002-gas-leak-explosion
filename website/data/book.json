@@ -11,7 +11,7 @@
   },
   "tagline": "Some hostels are a bargain. Others cost you your life.",
   "synopsis": {
-    "short": "",
+    "short": "An Instagram influencer lighting a cigarette in a hostel kitchen ignites accumulated gas from an undetected leak, turning her viral moment into a literal firestorm.",
     "long": ""
   },
   "death_type": "Gas Leak Explosion",
@@ -29,5 +29,6 @@
     "google_play": "",
     "audible": "",
     "kobo": ""
-  }
+  },
+  "death_teaser": "Her followers always said she was on fire. They weren't supposed to be right."
 }
